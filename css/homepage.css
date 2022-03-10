@@ -6,7 +6,8 @@ body{
     height:auto;
 }
 .hero-banner{
-    background-image: url(images/office-925806_1280.jpg);
+    position: relative;
+    background-image: url(../images/office-925806_1280.jpg);
     height:600px;
 }
 
