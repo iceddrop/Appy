@@ -594,7 +594,7 @@ footer .width{
     position: relative;
     left:35px;
 }
-@media only screen and (min-width:1550px) and (max-width:3000px){
+@media only screen and (min-width:1800px) and (max-width:3000px){
     nav{
         padding-left:700px!important;
     }
@@ -618,7 +618,7 @@ footer .width{
         left:30px;
     }
 }
-@media only screen and (min-width:1200px) and (max-width:1440px){
+@media only screen and (min-width:1200px) and (max-width:1750px){
     .navbar-nav > li{
         padding-left: 25px;
         padding-right: 25px;
