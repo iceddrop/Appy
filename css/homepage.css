@@ -6,7 +6,7 @@ body{
     height:auto;
 }
 .hero-banner{
-    background-image: url(../images/wiz-g5b65759fc_1280.jpg);
+    background-image: url(../images/office-925806_1280.jpg);
     height:600px;
 }
 
@@ -165,7 +165,7 @@ nav .nav-btn{
     height: 1px;
     content: '';
     background-color: hsl(0,0%,60%);
-    left: 120px;
+    left: 133px;
 }
 .third-section h4{
     color: #193F68;
@@ -221,12 +221,12 @@ nav .nav-btn{
 }
 .video-section h6:after{
     position: absolute;
+    left: 140px;
     top:50%;
     width:100px;
     height: 1px;
     content: '';
     background-color: hsl(0,0%,60%);
-    left: 127px;
 }
 .video-section h4{
     font-weight: 390;
@@ -589,11 +589,38 @@ footer a:hover{
 footer .width{
     width: 400px;
 }
-
-@media only screen and (min-width:1440px) and (max-width:1440px){
+.accordion-body{
+    position: relative;
+    left:35px;
+}
+@media only screen and (min-width:2559px) and (max-width:3000px){
+    nav{
+        padding-left:700px!important;
+    }
     .navbar-nav > li{
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .nav-link{
+        font-size: 30px;
+    }
+    .mover{
+        position:relative;
+        top:150px;
+    }
+    .box{
+        position:relative;
+        left:500px;
+    }
+    .blue-circle{
+        position: relative;
+        left:30px;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1440px){
+    .navbar-nav > li{
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .nav-link{
         font-size: 30px;
@@ -631,12 +658,13 @@ footer .width{
     .contact-section .blue-circle{
         transform: translateX(35px);
     }
-}
-/*@media only screen and (min-width:1279px) and (max-width:1281px){
-    .price-section li{
-        font-size: 12px;
+    .accordion-body{
+        position:relative;
+        left:112px;
+        padding: 20px;
+        margin-bottom: 20px;
     }
-}*/
+}
 @media only screen and (min-width:769px) and (max-width:1024px){
        .navbar-nav > li{
            padding-left: 10px;
@@ -728,9 +756,6 @@ footer .width{
     }
     .hero-banner h1{
         font-size: 50px;
-    }
-    .navbar-nav{
-        padding: 0px;
     }
     .feature-section .white-circle{
         height: 50px;
