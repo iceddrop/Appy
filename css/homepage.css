@@ -9,6 +9,8 @@ body{
     position: relative;
     background-image: url(../images/office-925806_1280.jpg);
     height:600px;
+    background-repeat: none;
+    background-size: cover;
 }
 
 .hero-banner::before{
@@ -334,6 +336,8 @@ nav .nav-btn{
     background-image: url(../images/balls-ga33e356b4_1280.jpg);
     position: relative;
     height: 300px;
+    background-repeat: none;
+    background-size: cover;
 }
 .sixth-section::before{
     background-color: rgba(30,144,255,0.5);
@@ -594,7 +598,7 @@ footer .width{
     position: relative;
     left:35px;
 }
-@media only screen and (min-width:1800px) and (max-width:3000px){
+@media only screen and (min-width:2000px) and (max-width:3000px){
     nav{
         padding-left:700px!important;
     }
@@ -618,7 +622,66 @@ footer .width{
         left:30px;
     }
 }
-@media only screen and (min-width:1200px) and (max-width:1750px){
+@media only screen and (min-width:1919px) and (max-width:1920px){
+    nav{
+        padding-left:350px!important;
+    }
+    .navbar-nav > li{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .nav-link{
+        font-size: 30px;
+    }
+    .hero-banner .move-1{
+        transform: translateY(210px);
+        padding:0px 120px 0px 120px; 
+     }
+     .hero-banner h1{
+         font-size: 57px;
+     }
+     .box{
+        position:relative;
+        left:500px;
+    }
+    .blue-circle{
+        position: relative;
+        left:30px;
+    }
+}    
+@media only screen and (min-width:1559px) and (max-width:1681px){
+    .navbar-nav > li{
+        position:relative;
+        left:30px;
+        padding-left: 33px;
+        padding-right: 25px;
+    }
+    .nav-link{
+        font-size: 32px;
+    }
+    .hero-banner .move-1{
+        transform: translateY(210px);
+        padding:0px 120px 0px 120px; 
+     }
+     .hero-banner h1{
+         font-size: 57px;
+     }
+     .accordion-body{
+        position:relative;
+        left:112px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .box{
+        position:relative;
+        left:500px;
+    }
+    .blue-circle{
+        position: relative;
+        left:30px;
+    }
+}    
+@media only screen and (min-width:1200px) and (max-width:1440px){
     .navbar-nav > li{
         padding-left: 25px;
         padding-right: 25px;
