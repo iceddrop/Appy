@@ -7,4 +7,4 @@ Appy is a product launch landing page that includes detailed product description
   
   
 ![APPY](https://user-images.githubusercontent.com/93996532/174448848-ad6477ab-8fd5-4504-9e87-4267d16d045c.png)
-Bootstrap was used extensively and developing this landing gave me a platform to play around with the framework. 
+Bootstrap was used extensively and developing this landing page gave me a platform to play around with the framework. 
