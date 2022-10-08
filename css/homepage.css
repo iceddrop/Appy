@@ -80,11 +80,7 @@ nav .nav-btn{
     animation-name: animation-1;
     animation-duration: 1s;
 }
-@keyframes animation-1{
-    0%{
-        transform: translateX(-600px);
-    }
-}
+
 .btn-2{
     font-weight: 500;
     border-style: none;
@@ -102,14 +98,9 @@ nav .nav-btn{
     padding:10px 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: hsl(0,0%,60%);
-    animation-name: animation-2;
-    animation-duration: 1s;
+
 }
-@keyframes animation-2{
-    0%{
-        transform: translateX(-600px);
-    }
-}
+
 .about-section h6:before, .about-section h6:after {
     position: absolute;
     top:50%;
@@ -124,25 +115,15 @@ nav .nav-btn{
 }
 .about-section .paragraph-1{
     color: hsl(259,96%,46%);
-    animation-name: animation-3;
-    animation-duration: 1s;
+
 }
-@keyframes animation-3{
-    0%{
-        transform: translateX(600px);
-    }
-}
+
 .about-section .paragraph-2{
     color: hsl(0,0%,60%);
     font-size: 13px;
-    animation-name: animation-4;
-    animation-duration: 1s;
+
 }
-@keyframes animation-4{
-    0%{
-        transform: translateX(-600px);
-    }
-}
+
 .third-section{
     background-color: whitesmoke;
     padding: 100px 0px 65px 0px;
@@ -153,14 +134,9 @@ nav .nav-btn{
     padding:10px 10px;
     color: hsl(0,0%,60%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    animation-name: animation-5;
-    animation-duration: 1s;
+
 }
-@keyframes animation-5{
-     0%{
-         transform: translateX(-600px);
-     }
-}
+
 .third-section h6:after{
     position: absolute;
     top:50%;
@@ -173,25 +149,15 @@ nav .nav-btn{
 .third-section h4{
     color: #193F68;
     font-weight: 390;
-    animation-name: animation-6;
-    animation-duration: 1s;
+
 }
-@keyframes animation-6{
-    0%{
-        transform: translateX(600px);
-    }
-}
+
 .third-section p{
     color: #193F68;
     font-size: 13px;
-    animation-name: animation-7;
-    animation-duration: 1s;
+
 }
-@keyframes animation-7{
-    0%{
-        transform: translateX(-600px);
-    }
-}
+
 .btn-3{
     font-size: 10px;
     font-weight: 500;
@@ -204,14 +170,9 @@ nav .nav-btn{
     color: white;
     background-color: #fefefe;
     background-image:linear-gradient(320deg,hsl(207,83%,75%) 0%, hsl(207,64%,48%));
-    animation-name: animation-8;
-    animation-duration: 1s;
+
 }
-@keyframes animation-8{
-    0%{
-        transform: translateX(600px);
-    }
-}
+
 .video-section{
     padding:150px 0px 60px 0px;
 }
@@ -528,14 +489,14 @@ nav .nav-btn{
 .contact-section{
     padding: 80px 0px 80px 0px;
 }
-.contact-section h6{
+.contact-title{
     position: relative;
     display: inline-block;
     padding:10px 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: hsla(207,64%,48%,0.9);
 }
-.contact-section h6:before, .contact-section h6:after {
+.contact-title:before, .contact-title:after {
     position: absolute;
     top:50%;
     width:100px;
@@ -544,7 +505,7 @@ nav .nav-btn{
     background-color: hsl(0,0%,60%);
     left: -100px;
 }
-.contact-section h6:after {
+.contact-title:after {
     left:100%;
 }
 .contact-section h4{
